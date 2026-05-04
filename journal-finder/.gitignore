@@ -1,0 +1,53 @@
+# Data
+data/processed/
+data/raw/
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+report/
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large files
+*.bak
+*.npy
+*.pkl
+
+# LaTeX
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.lof
+report/*.log
+report/*.lot
+report/*.out
+report/*.pdf
+report/*.synctex.gz
+report/*.toc
+
+# Streamlit and misc caches
+.streamlit/

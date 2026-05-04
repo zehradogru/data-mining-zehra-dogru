@@ -1,0 +1,31 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local databases and large artifacts
+*.sqlite
+*.db
+*.parquet
+*.npy
+*.pkl
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
